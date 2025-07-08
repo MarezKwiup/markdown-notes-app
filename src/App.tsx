@@ -9,6 +9,7 @@ function App() {
   return (
     <>
       <p>Welcome to the notes app !</p>
+      
     </>
   )
 }
