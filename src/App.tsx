@@ -1,17 +1,21 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useLocation } from "react-router-dom";
+import NoteList from "./pages/NoteList";
+import NoteEditor from "./pages/NoteEditor";
 
-function App() {
-  const [count, setCount] = useState(0)
+export default function App() {
+  const location = useLocation();
+  const path = location.pathname;
+  console.log("Path is currently : ", path);
 
   return (
-    <>
-      <p>Welcome to the notes app !</p>
-      
-    </>
-  )
-}
+    <div className="flex h-screen">
+      <div className="w-1/3 border-r">
+        <NoteList/>
+      </div>
 
-export default App
+      <div className="w-2/3">
+        <NoteEditor key={path} />
+      </div>
+    </div>
+  );
+}
