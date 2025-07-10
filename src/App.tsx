@@ -9,7 +9,7 @@ export default function App() {
 
   return (
     <div className="flex h-screen">
-      <div className="w-1/3 border-r">
+      <div className="w-1/3 border-r h-screen overflow-y-auto">
         <NoteList/>
       </div>
 
