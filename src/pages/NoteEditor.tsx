@@ -1,5 +1,9 @@
+import { useLocation } from "react-router-dom";
+
 const NoteEditor = () =>{
-    return <p>This is the note editor</p>
+    const location=useLocation();
+    const path=location.pathname;
+    return <p>Current path is : {path}</p>
 }
 
 export default NoteEditor;
