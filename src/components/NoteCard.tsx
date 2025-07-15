@@ -49,8 +49,8 @@ export default function NoteCard({ note, onDelete}: Props) {
               )}
             </div>
           </div>
-          <p className="text-[15px] text-[#3f3e3e] line-clamp-2">{note.content}</p>
-          <span className="text-[13px] text-[#3f3e3e]">{formatted}</span>
+          <p className="text-[15px] text-[#6b7280] line-clamp-2">{note.content}</p>
+          <span className="text-[13px] text-[#6b7280]">{formatted}</span>
         </div>
       </NavLink>
 

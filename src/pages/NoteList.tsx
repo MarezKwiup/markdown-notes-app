@@ -30,7 +30,7 @@ const NoteList = () => {
   return (
     <>
       <div className="bg-[#f9fafb]">
-        <SearchBar setNotes={setNotes} notes={allNotes} />
+        <SearchBar setNotes={setNotes} notes={allNotes} setAllNotes={setAllNotes}/>
         <div className="flex flex-col h-screen overflow-y-auto">
           {[...notes]
             .sort(
@@ -39,7 +39,7 @@ const NoteList = () => {
                 new Date(a.updatedAt).getTime()
             )
             .map((note: Note) => (
-              <div key={note.id} className="flex justify-center m-[8px]">
+              <div key={note.id} className="flex justify-center m-[20px]">
                 <NoteCard note={note} onDelete={handleDelete} />
               </div>
             ))}

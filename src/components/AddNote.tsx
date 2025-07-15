@@ -1,17 +1,19 @@
 import { FaSquarePlus } from "react-icons/fa6";
 import { useState } from "react";
-import { useNavigate, useNavigation } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { createNote } from "../services/noteService";
 import { type Note } from "../types/note";
 
 type Props = {
   notes: Note[];
   setNotes: React.Dispatch<React.SetStateAction<Note[]>>;
+  setAllNotes: React.Dispatch<React.SetStateAction<Note[]>>;
 };
 
 
-const AddNote = ({ setNotes, notes }: Props) => {
+const AddNote = ({ setNotes, notes, setAllNotes }: Props) => {
   const [hovered, setHovered] = useState(false);
+  const navigate=useNavigate();
 
   const currentDate = new Date().toISOString();
 
@@ -26,8 +28,8 @@ const AddNote = ({ setNotes, notes }: Props) => {
     await createNote(newNote);
 
     console.log("Here boi");
-    setNotes([...notes,newNote]);
-    const navigate=useNavigate();
+    setNotes(prev => [...prev, newNote]);
+    setAllNotes(prev => [...prev, newNote]);
     navigate(`/edit/${newNote.id}`);
   };
 

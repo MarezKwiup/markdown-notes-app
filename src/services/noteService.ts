@@ -21,3 +21,6 @@ export const getAllNotes = async ():Promise<Note[]>=>{
     return await db.notes.orderBy('updatedAt').reverse().toArray();
 }
 
+export const getNoteById = async (id: string): Promise<Note | undefined> => {
+  return await db.notes.get(id);
+};
