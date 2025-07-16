@@ -26,7 +26,7 @@ const NoteEditor = () => {
 
   return (
     <>
-    <TopBar setEditMode={setEditMode} note={note}/>
+    {note&&<TopBar setEditMode={setEditMode} note={note} editMode={editMode}/>}
       <div className="p-4">
         {note ? (
           <>

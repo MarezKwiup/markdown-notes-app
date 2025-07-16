@@ -9,16 +9,16 @@ export default function App() {
   const path = location.pathname;
 
   useEffect(() => {
-    navigate('/',{replace:true})
+    navigate('/', { replace: true });
   }, []);
 
   return (
     <div className="flex h-screen">
-      <div className="w-1/4 border-r h-screen border-[#e5e7eb]">
-        <NoteList/>
+      <div className="w-1/4 h-full border-r border-[#e5e7eb] bg-[#f9fafb]">
+        <NoteList />
       </div>
 
-      <div className="w-2/3">
+      <div className="w-3/4 h-full">
         <NoteEditor key={path} />
       </div>
     </div>

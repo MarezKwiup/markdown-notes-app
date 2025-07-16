@@ -54,7 +54,6 @@ export default function NoteCard({ note, onDelete}: Props) {
         </div>
       </NavLink>
 
-      {/* 🔴 Delete button on hover */}
       <button
         onClick={() => onDelete(note.id)}
         className="absolute top-[10px] right-[10px] opacity-0 group-hover:opacity-100 text-gray-400 hover:text-[#de3535] transition bg-transparent border-none outline-none"
