@@ -9,7 +9,6 @@ import TopBar from "../components/TopBar";
 import * as backend from "../services/api";
 import MDEditor from "@uiw/react-md-editor";
 import MarkdownPreview from "@uiw/react-markdown-preview";
-import axios from "axios";
 import { MdEditNote } from "react-icons/md";
 
 const NoteEditor = () => {

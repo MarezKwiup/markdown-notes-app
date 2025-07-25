@@ -11,7 +11,7 @@ type Props = {
 };
 
 
-const AddNote = ({ setNotes, notes, setAllNotes }: Props) => {
+const AddNote = ({ setNotes, setAllNotes }: Props) => {
   const [hovered, setHovered] = useState(false);
   const navigate=useNavigate();
 
@@ -27,7 +27,6 @@ const AddNote = ({ setNotes, notes, setAllNotes }: Props) => {
     };
     await createNote(newNote);
 
-    console.log("Here boi");
     setNotes(prev => [...prev, newNote]);
     setAllNotes(prev => [...prev, newNote]);
     navigate(`/edit/${newNote.id}`);

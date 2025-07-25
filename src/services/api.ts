@@ -16,10 +16,8 @@ export const updateNote = async (note: Note) => {
 export const deleteNote = (id: string) => API.delete(`/notes/${id}`);
 export const fetchNotesById = async (id: string): Promise<any> => {
   try {
-    console.log("Waiting to fetch the note by id");
     const res =  await API.get(`/notes/${id}`);
     console.log("Result is (from the find by ID API ): ",res)
-    console.log("Returning true");
     return true;
   } catch (e){
     console.log("Error while fetching the note by id is : ",e);

@@ -1,9 +1,7 @@
 import SearchBar from "../components/SearchBar";
 import { useEffect, useState } from "react";
 import {
-  createNote,
   updateNote,
-  deleteNote,
   getAllNotes,
 } from "../services/noteService";
 import { type Note } from "../types/note";

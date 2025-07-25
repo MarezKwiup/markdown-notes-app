@@ -18,11 +18,6 @@ export default function useNoteSync() {
           if (note.isDeleted) {
             const noteExists = await backend.fetchNotesById(note.id);
             if(noteExists) await backend.deleteNote(note.id);
-            console.log(
-              "Note with title : ",
-              note.title,
-              " deleted from the backend "
-            );
             await deleteFromDexie(note.id);
           } else {
             const noteExists = await backend.fetchNotesById(note.id);
