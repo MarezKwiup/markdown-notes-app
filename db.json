@@ -251,6 +251,14 @@
       "updatedAt": "2025-07-25T08:35:12.414Z",
       "synced": false,
       "syncing": true
+    },
+    {
+      "id": "78b7e39a-a308-465f-b431-9c4c204ed25c",
+      "title": "Trying to create a new note!!",
+      "content": "New note created!!!",
+      "updatedAt": "2025-07-25T09:47:57.760Z",
+      "synced": false,
+      "syncing": true
     }
   ]
 }
