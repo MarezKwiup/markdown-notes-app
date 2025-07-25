@@ -6,7 +6,7 @@ import { IoTrashBin } from "react-icons/io5";
 
 type Props = {
   note: Note;
-  onDelete:(id:string)=>void;
+  onDelete:(note:Note)=>void;
 };
 
 export default function NoteCard({ note, onDelete}: Props) {
@@ -55,7 +55,8 @@ export default function NoteCard({ note, onDelete}: Props) {
       </NavLink>
 
       <button
-        onClick={() => onDelete(note.id)}
+        onClick={() => onDelete(note)}
+        aria-label="Delete note"
         className="absolute top-[10px] right-[10px] opacity-0 group-hover:opacity-100 text-gray-400 hover:text-[#de3535] transition bg-transparent border-none outline-none"
       >
         <IoTrashBin size={13} />

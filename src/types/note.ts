@@ -4,4 +4,6 @@ export type Note = {
   content: string; // Markdown text content
   updatedAt: string; // ISO timestamp of last update
   synced: boolean; // Whether note is synced with backend
+  syncing?:boolean;
+  isDeleted?:boolean;
 };

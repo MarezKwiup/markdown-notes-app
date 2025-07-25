@@ -22,10 +22,12 @@ const NoteList = () => {
     fn();
   }, []);
 
-  const handleDelete = async (id: string) => {
-    await deleteNote(id);
-    setNotes((prevNotes) => prevNotes.filter((note) => note.id !== id));
-    setAllNotes((prevNotes) => prevNotes.filter((note) => note.id !== id));
+  const handleDelete = async (deletedNote: Note) => {
+    deletedNote.isDeleted=true
+    console.log("Note in the handle delete is : ",deletedNote);
+    await updateNote(deletedNote)
+    setNotes((prevNotes) => prevNotes.filter((note) => note.id !== deletedNote.id));
+    setAllNotes((prevNotes) => prevNotes.filter((note) => note.id !== deletedNote.id));
   };
 
   return (

@@ -2,8 +2,11 @@ import { useLocation, useNavigate } from "react-router-dom";
 import { useEffect } from "react";
 import NoteList from "./pages/NoteList";
 import NoteEditor from "./pages/NoteEditor";
+import useNoteSync from "./hooks/useNoteSync";
 
 export default function App() {
+
+  useNoteSync()
   const location = useLocation();
   const navigate = useNavigate();
   const path = location.pathname;

@@ -1,11 +1,15 @@
 {
   "notes": [
     {
-      "id": "12ab5e3f-3b3a-4af2-991f-1f00e93b1e0e",
-      "title": "Highest Individual Score",
-      "content": "Rohit Sharma holds the record for the highest individual ODI score with 264 runs against Sri Lanka in 2014.",
-      "updatedAt": "2025-07-09T16:50:00.000Z",
-      "synced": true
+      "note": {
+        "id": "12ab5e3f-3b3a-4af2-991f-1f00e93b1e0e",
+        "title": "Highest Individual Score",
+        "content": "Rohit Sharma holds the record for the highest individual ODI score with 264 runs against Sri Lanka in `c++`. ",
+        "updatedAt": "2025-07-18T11:39:07.243Z",
+        "synced": true,
+        "syncing": false
+      },
+      "id": "12ab5e3f-3b3a-4af2-991f-1f00e93b1e0e"
     },
     {
       "id": "f7b255dd-9a98-4f1a-b21b-29f84923889d",
@@ -25,15 +29,20 @@
       "id": "1e19e91f-cd90-408f-996c-143493f6b92e",
       "title": "First Cricket World Cup",
       "content": "The first Cricket World Cup was held in 1975 and was won by the West Indies.",
-      "updatedAt": "2025-07-09T17:05:00.000Z",
-      "synced": true
+      "updatedAt": "2025-07-16T12:47:59.055Z",
+      "synced": false,
+      "syncing": true
     },
     {
-      "id": "a91f029b-e74f-4c33-a935-c29e5abfa030",
-      "title": "Arsenal Invincibles",
-      "content": "Arsenal went unbeaten in the entire 2003–04 Premier League season, earning the nickname 'The Invincibles'.",
-      "updatedAt": "2025-07-09T17:10:00.000Z",
-      "synced": true
+      "note": {
+        "id": "a91f029b-e74f-4c33-a935-c29e5abfa030",
+        "title": "Arsenal Invinc",
+        "content": "**Arsenal** went unbeaten in the entire 2003–04 Premier League season, earning the nickname 'The ![Invincibles'.](",
+        "updatedAt": "2025-07-17T12:48:15.985Z",
+        "synced": true,
+        "syncing": false
+      },
+      "id": "a91f029b-e74f-4c33-a935-c29e5abfa030"
     },
     {
       "id": "8c48f703-c145-4c95-b31e-e2a6ae230391",
@@ -50,18 +59,198 @@
       "synced": true
     },
     {
-      "id": "3dcfb4fa-8583-4cb3-9a5c-e68f57de344b",
-      "title": "Arsène Wenger Era",
-      "content": "Arsène Wenger managed Arsenal from 1996 to 2018, making him the club’s longest-serving manager.",
-      "updatedAt": "2025-07-09T17:25:00.000Z",
-      "synced": true
+      "note": {
+        "id": "3dcfb4fa-8583-4cb3-9a5c-e68f57de344b",
+        "title": "aArsène Wenger Era ia",
+        "content": "Arsène Wenger managed Arsenal from 1996 to 2018, making him the club’s longest-serving manager man what the actual It finally worked yay!.",
+        "updatedAt": "2025-07-17T12:06:59.318Z",
+        "synced": true,
+        "syncing": false
+      },
+      "id": "3dcfb4fa-8583-4cb3-9a5c-e68f57de344b"
     },
     {
-      "id": "f3ef0f50-2604-4960-9849-9f0f7ebcb0d0",
-      "title": "FA Cup Kings",
-      "content": "Arsenal holds the record for most FA Cup wins with 14 titles as of 2023.",
-      "updatedAt": "2025-07-09T17:30:00.000Z",
-      "synced": true
+      "id": "2acf45d6-211b-4ecc-baad-e60376ed6981",
+      "title": "A temporary note for testing offline mode.",
+      "content": "Hi I am testing to edit a note in offline mode. Why is the sync getting failed? Hey i a fm trying to sync. Will ai reo. ds fdfffdfsad\nrd fjjnnkfjnsdfjn.grgrgfgrgrggfffffgfdfdfdffdfdffdfdcf",
+      "updatedAt": "2025-07-18T12:09:46.931Z",
+      "synced": false,
+      "syncing": true
+    },
+    {
+      "id": "2acf45d6-211b-4ecc-baad-e60376ed6981",
+      "title": "A temporary note for testing offline mode.",
+      "content": "Hi I am testing to edit a note in offline mode. Why is the sync getting failed? Hey i a fm trying to sync. Will ai reo. ds fdfffdfsad\nrd fj",
+      "updatedAt": "2025-07-18T12:05:44.662Z",
+      "synced": false,
+      "syncing": true
+    },
+    {
+      "id": "2acf45d6-211b-4ecc-baad-e60376ed6981",
+      "title": "A temporary note for testing offline mode.",
+      "content": "Hi I am testing to edit a note in offline mode. Why is the sync getting failed? Hey i a fm trying to sync. Will ai reo. ds fdfffdfsad\nrd fjj",
+      "updatedAt": "2025-07-18T12:05:47.921Z",
+      "synced": false,
+      "syncing": true
+    },
+    {
+      "id": "2acf45d6-211b-4ecc-baad-e60376ed6981",
+      "title": "A temporary note for testing offline mode.",
+      "content": "Hi I am testing to edit a note in offline mode. Why is the sync getting failed? Hey i a fm trying to sync. Will ai reo. ds fdfffdfsad\nrd fjjn",
+      "updatedAt": "2025-07-18T12:05:48.773Z",
+      "synced": false,
+      "syncing": true
+    },
+    {
+      "id": "2acf45d6-211b-4ecc-baad-e60376ed6981",
+      "title": "A temporary note for testing offline mode.",
+      "content": "Hi I am testing to edit a note in offline mode. Why is the sync getting failed? Hey i a fm trying to sync. Will ai reo. ds fdfffdfsad\nrd fjjnn",
+      "updatedAt": "2025-07-18T12:05:49.107Z",
+      "synced": false,
+      "syncing": true
+    },
+    {
+      "id": "2acf45d6-211b-4ecc-baad-e60376ed6981",
+      "title": "A temporary note for testing offline mode.",
+      "content": "Hi I am testing to edit a note in offline mode. Why is the sync getting failed? Hey i a fm trying to sync. Will ai reo. ds fdfffdfsad\nrd fjjnnk",
+      "updatedAt": "2025-07-18T12:05:49.186Z",
+      "synced": false,
+      "syncing": true
+    },
+    {
+      "id": "2acf45d6-211b-4ecc-baad-e60376ed6981",
+      "title": "A temporary note for testing offline mode.",
+      "content": "Hi I am testing to edit a note in offline mode. Why is the sync getting failed? Hey i a fm trying to sync. Will ai reo. ds fdfffdfsad\nrd fjjnnkf",
+      "updatedAt": "2025-07-18T12:05:52.440Z",
+      "synced": false,
+      "syncing": true
+    },
+    {
+      "id": "2acf45d6-211b-4ecc-baad-e60376ed6981",
+      "title": "A temporary note for testing offline mode.",
+      "content": "Hi I am testing to edit a note in offline mode. Why is the sync getting failed? Hey i a fm trying to sync. Will ai reo. ds fdfffdfsad\nrd fjjnnkfj",
+      "updatedAt": "2025-07-18T12:05:52.919Z",
+      "synced": false,
+      "syncing": true
+    },
+    {
+      "id": "2acf45d6-211b-4ecc-baad-e60376ed6981",
+      "title": "A temporary note for testing offline mode.",
+      "content": "Hi I am testing to edit a note in offline mode. Why is the sync getting failed? Hey i a fm trying to sync. Will ai reo. ds fdfffdfsad\nrd fjjnnkfjn",
+      "updatedAt": "2025-07-18T12:05:52.931Z",
+      "synced": false,
+      "syncing": true
+    },
+    {
+      "id": "2acf45d6-211b-4ecc-baad-e60376ed6981",
+      "title": "A temporary note for testing offline mode.",
+      "content": "Hi I am testing to edit a note in offline mode. Why is the sync getting failed? Hey i a fm trying to sync. Will ai reo. ds fdfffdfsad\nrd fjjnnkfjns",
+      "updatedAt": "2025-07-18T12:05:53.873Z",
+      "synced": false,
+      "syncing": true
+    },
+    {
+      "id": "2acf45d6-211b-4ecc-baad-e60376ed6981",
+      "title": "A temporary note for testing offline mode.",
+      "content": "Hi I am testing to edit a note in offline mode. Why is the sync getting failed? Hey i a fm trying to sync. Will ai reo. ds fdfffdfsad\nrd fjjnnkfjnsd",
+      "updatedAt": "2025-07-18T12:05:53.901Z",
+      "synced": false,
+      "syncing": true
+    },
+    {
+      "id": "2acf45d6-211b-4ecc-baad-e60376ed6981",
+      "title": "A temporary note for testing offline mode.",
+      "content": "Hi I am testing to edit a note in offline mode. Why is the sync getting failed? Hey i a fm trying to sync. Will ai reo. ds fdfffdfsad\nrd fjjnnkfjnsdf",
+      "updatedAt": "2025-07-18T12:05:54.026Z",
+      "synced": false,
+      "syncing": true
+    },
+    {
+      "id": "2acf45d6-211b-4ecc-baad-e60376ed6981",
+      "title": "A temporary note for testing offline mode.",
+      "content": "Hi I am testing to edit a note in offline mode. Why is the sync getting failed? Hey i a fm trying to sync. Will ai reo. ds fdfffdfsad\nrd fjjnnkfjnsdfj",
+      "updatedAt": "2025-07-18T12:05:54.172Z",
+      "synced": false,
+      "syncing": true
+    },
+    {
+      "id": "2acf45d6-211b-4ecc-baad-e60376ed6981",
+      "title": "A temporary note for testing offline mode.",
+      "content": "Hi I am testing to edit a note in offline mode. Why is the sync getting failed? Hey i a fm trying to sync. Will ai reo. ds fdfffdfsad\nrd fjjnnkfjnsdfjn",
+      "updatedAt": "2025-07-18T12:05:54.291Z",
+      "synced": false,
+      "syncing": true
+    },
+    {
+      "id": "2acf45d6-211b-4ecc-baad-e60376ed6981",
+      "title": "A temporary note for testing offline mode.",
+      "content": "Hi I am testing to edit a note in offline mode. Why is the sync getting failed? Hey i a fm trying to sync. Will ai reo. ds fdfffdfsad\nrd fjjnnkfjnsdfjn.grgrgfgrgrg",
+      "updatedAt": "2025-07-18T12:06:16.696Z",
+      "synced": false,
+      "syncing": true
+    },
+    {
+      "id": "fcb7879a-cf0e-41b4-a527-e976d329752e",
+      "title": "Hey i am trying to wrtie a note man!!",
+      "content": "What the actual fuck!!ffv. asdingsdindfnjvdfsdfscdscdvcdgfdscf. Hey is it done??\ng",
+      "updatedAt": "2025-07-24T12:32:54.774Z",
+      "synced": false,
+      "syncing": true
+    },
+    {
+      "id": "ca773580-c03e-4b09-ad57-55e0e19377a0",
+      "title": "Creating a new note!!",
+      "content": "Hi i am trying to create a new notegfd",
+      "updatedAt": "2025-07-24T12:34:48.759Z",
+      "synced": false,
+      "syncing": true
+    },
+    {
+      "id": "4122c963-04ae-4458-b4ad-b5ed8caed857",
+      "title": "Hi, trying to create a note",
+      "content": "Hey i am created a new note.",
+      "updatedAt": "2025-07-24T12:35:55.823Z",
+      "synced": false,
+      "syncing": true
+    },
+    {
+      "id": "bc40dc3f-aa6b-44ad-a6cf-f0704075dfda",
+      "title": "Trying in offline mode.",
+      "content": "gg",
+      "updatedAt": "2025-07-24T12:36:37.179Z",
+      "synced": false,
+      "syncing": true
+    },
+    {
+      "id": "86a2c033-5093-4409-84f8-95ea8e81526e",
+      "title": "gdfg",
+      "content": "ggmu fuck you",
+      "updatedAt": "2025-07-24T12:36:52.345Z",
+      "synced": false,
+      "syncing": true
+    },
+    {
+      "id": "6c73cabb-f751-4807-8763-de361e7aa9f6",
+      "title": "testing again",
+      "content": "Untitledfgdvfdsfvfdsc",
+      "updatedAt": "2025-07-24T12:37:14.365Z",
+      "synced": false,
+      "syncing": true
+    },
+    {
+      "id": "8def4a3d-2b81-45c8-96bc-40f1e185045e",
+      "title": "Untitled",
+      "content": "Untitled",
+      "updatedAt": "2025-07-24T12:47:50.792Z",
+      "synced": false
+    },
+    {
+      "id": "40a39a27-b418-4328-b4d5-47037d954903",
+      "title": "Hi",
+      "content": "Hey, i am trying to sync!!",
+      "updatedAt": "2025-07-25T08:35:12.414Z",
+      "synced": false,
+      "syncing": true
     }
   ]
 }

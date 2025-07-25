@@ -45,18 +45,24 @@ const SearchBar = ({ setNotes, notes, setAllNotes }: Props) => {
     <div className="border-b border-[#e5e7eb]">
       <div className="flex flex-col">
         <div className="flex justify-between p-[20px]">
-          <span className="font-[1000] text-[25px] mt-[4px] line-clamp-2">
-            Notes
-          </span>
+          <div className="flex justify-center align-center">
+            <span className="font-[1000] text-[25px] mt-[4px] line-clamp-2">
+              Notely
+            </span>
+          </div>
           {/* <FaSquarePlus size="35px" color="#2463eb"/> */}
-          <AddNote setNotes={setNotes} notes={notes} setAllNotes={setAllNotes}/>
+          <AddNote
+            setNotes={setNotes}
+            notes={notes}
+            setAllNotes={setAllNotes}
+          />
         </div>
         <input
           type="text"
           placeholder="Search notes..."
           className="mx-[20px] mb-[12px] px-[12px] py-[8px] rounded-[8px] border focus:outline-blue-500"
           value={search}
-          onChange={(e)=>setSearch(e.target.value)}
+          onChange={(e) => setSearch(e.target.value)}
         />
       </div>
     </div>
